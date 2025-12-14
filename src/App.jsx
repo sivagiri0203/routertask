@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Products from "./pages/Products";   // ✅ singular
 import Cart from "./pages/Cart.jsx";
-import Navbar from "./components/NavBar"; 
+import Navbar from "./components/NavBar.jsx"; 
 
 export default function App() {
   return (
